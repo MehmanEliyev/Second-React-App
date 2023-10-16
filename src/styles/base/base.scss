@@ -1,0 +1,87 @@
+.container{
+    width: 80%;  
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/* col-1 */
+.col-1 {
+    flex: 0 0 8.33%; /* You can adjust the flex values as needed */
+  }
+  
+  /* col-2 */
+  .col-2 {
+    flex: 0 0 16.66%; /* You can adjust the flex values as needed */
+  }
+  
+  /* col-3 */
+  .col-3 {
+    flex: 0 0 25%; /* You can adjust the flex values as needed */
+  }
+  
+  /* col-4 */
+  .col-4 {
+    flex: 0 0 33.33%; /* You can adjust the flex values as needed */
+  }
+  
+  /* col-5 */
+  .col-5 {
+    flex: 0 0 41.66%; /* You can adjust the flex values as needed */
+  }
+  
+  /* col-6 */
+  .col-6 {
+    flex: 0 0 50%; /* You can adjust the flex values as needed */
+  }
+  
+  /* col-7 */
+  .col-7 {
+    flex: 0 0 58.33%; /* You can adjust the flex values as needed */
+  }
+  
+  /* col-8 */
+  .col-8 {
+    flex: 0 0 66.66%; /* You can adjust the flex values as needed */
+  }
+  
+  /* col-9 */
+  .col-9 {
+    flex: 0 0 75%; /* You can adjust the flex values as needed */
+  }
+  
+  /* col-10 */
+  .col-10 {
+    flex: 0 0 83.33%; /* You can adjust the flex values as needed */
+  }
+  
+  /* col-11 */
+  .col-11 {
+    flex: 0 0 91.66%; /* You can adjust the flex values as needed */
+  }
+  
+  /* col-12 */
+  .col-12 {
+    flex: 0 0 100%; /* You can adjust the flex values as needed */
+  }
+  
+.justify-content-center{
+  justify-content: center;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.justify-content-around{
+  justify-content: space-around;
+}
+
+.justify-content-evenly{
+  justify-content: space-evenly;
+}
