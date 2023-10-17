@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       <Header/>
       <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-5">
-            <Form/>
+        <div className="row justify-content-center mt-4">
+          <div className="col-4">
+            <Form className = "register-form" title = "Register Form" description = "All aviable input types are included"/>
           </div>
         </div>
       </div>

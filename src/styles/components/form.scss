@@ -1,0 +1,23 @@
+.register-form{
+    width: 100%;
+    border-radius: 10px;
+    background-color: aliceblue;
+    min-height: 50vh;
+    padding: 40px;
+
+    h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        color:darkgray;
+        display: inline;
+        margin-left: 20px
+    }
+    
+    p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        color:darkgray;
+        margin: 15px 0;
+    }
+}

@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Input = () => {
+const Input = ({className,placeholder,onChange}) => {
   return (
-   <input type="text" />
+   <input type="text"  className={className} placeholder = {placeholder} onChange = {onChange} />
   )
 }
 

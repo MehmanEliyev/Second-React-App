@@ -1,0 +1,32 @@
+.btn-success{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color : rgb(25, 16, 44);
+    color : white;
+    font-weight: 500;
+    cursor : pointer;
+
+    &:hover{
+        background-color:darkslateblue;
+    }
+
+    &[btnsize = "large"]{
+        width: 100px;
+    }
+}
+
+
+.btn-danger{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color : rgb(92, 0, 0);
+    color : white;
+    font-weight: 500;
+    cursor : pointer;
+
+    &:hover{
+        background-color:rgb(255, 0, 0);
+    }
+}
